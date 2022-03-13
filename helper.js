@@ -316,4 +316,3 @@ module.exports = {
   pdiff2Target,
   serializeHeader
 }
-© 2022 GitHub, Inc.
