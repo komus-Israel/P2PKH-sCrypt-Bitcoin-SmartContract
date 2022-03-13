@@ -1,3 +1,9 @@
 contract P2PKH {
-    
+    Ripemd160 pubKeyHash;           //  this variable is of type Ripemd160 corresponding to P2PKH locking script <Public Key Hash>
+
+    constructor (Ripemd160 _pubKeyHash) {
+
+        this.pubKeyHash = _pubKeyHash;
+
+    }
 }
